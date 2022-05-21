@@ -14,3 +14,7 @@ A ideia inicial é começar com uma configuração simples de células vivas em 
 # A atividade
 
 Como atividade, deve-se criar um jogo da vida em linguagem C. Como entrada deve-se informar o tamanho da matriz. Após deve-se pedir ao usuário informar as posições que estarão vivas no início (valor 1), para isso peça que ele informe a linha e a coluna da célula. Deve-se parar de perguntar ao usuário qual a célula deve começar viva se este digitar um valor negativo.
+
+# Exemplo de 4 evoluções
+
+![Exemplo 4 evoluções](https://github.com/MatheusFarias03/JogoDaVida/blob/main/ExemploJogoDaVida.png?raw=true)
