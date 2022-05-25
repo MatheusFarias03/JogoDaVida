@@ -161,10 +161,17 @@ int main()
         //clear();
     }
 
+    // Remove matrix from memory
     for (int i = 0; i < matrixSize; i++) {
         free(myMatrix[i]);
     }
     free(myMatrix);
+
+    for (int i = 0; i < inputSize; i++) {
+        free(countNeighborMatrix[i]);
+    }
+    free(countNeighborMatrix);
+
     return 0;
 }
 
