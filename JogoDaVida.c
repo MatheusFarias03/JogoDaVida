@@ -1,5 +1,6 @@
 // JogoDaVida.c : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Leonardo Pinheiro de Souza - TIA : 32127391
+// Matheus Farias de Oliveira Matsumoto - TIA : 32138271 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -158,7 +159,7 @@ int main()
         updateMatrix(myMatrix, countNeighborMatrix, inputSize);
         printf("\nType a number different from 0 to see the next output: ");
         scanf_s("%d", &intInput);
-        //clear();
+        clear();
     }
 
     // Remove matrix from memory
